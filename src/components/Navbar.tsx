@@ -20,8 +20,8 @@ export default function Navbar () {
 
       <DropdownMenu>
         <DropdownMenuTrigger
-          className="z-30 relative"
-        > work
+          className="z-30 relative text-2xl font-light"
+        > =
         </DropdownMenuTrigger>
         <DropdownMenuContent
           className={`z-30 absolute right-0 bg-darkBlue text-white ${jost.variable} font-sans font-normal border-gray-800`}

@@ -1,3 +1,4 @@
+import Contact from '@/components/Contact'
 import Hero from '@/components/Hero'
 import Projects from '@/components/Projects'
 import { Inter } from 'next/font/google'
@@ -11,6 +12,7 @@ export default function Home() {
     >
       <Hero />
       <Projects />
+      <Contact />
     </div>
   )
 }

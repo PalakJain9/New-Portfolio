@@ -20,12 +20,12 @@ function Recruitify () {
         className="w-full lg:w-1/3 flex flex-col justify-start items-start gap-2"
       >
         <h2
-          className="text-4xl text-orange"
+          className="text-2xl md:text-4xl text-orange"
           > Recruitify
         </h2>
 
         <p
-          className="text-blue text-2xl font-medium"
+          className="text-darkBlue text-xl md:text-2xl font-medium"
           > the shopify for universities, built to maximise recruitments&apos; success
         </p>
 
@@ -96,13 +96,13 @@ function Tymely () {
         className="w-full lg:w-1/3 flex flex-col justify-start items-start gap-3"
       >
         <h2
-          className="text-4xl text-orange"
+          className="text-2xl md:text-4xl text-orange"
           > Tymely
         </h2>
 
         <p
-          className="text-blue text-2xl font-medium"
-          > a time-management app to help you manage your deadlines and be less stressed
+          className="text-darkblue text-xl md:text-2xl font-medium"
+          > a time-management app to help you manage your deadlines and have less work stress
         </p>
 
         <Link 
@@ -152,10 +152,10 @@ function Tymely () {
 export default function Projects () {
   return (
     <div
-      className="flex flex-col gap-[5rem] justify-start items-center pt-[9rem] pb-[13rem] universalPadding"
+      className="flex flex-col gap-[5rem] justify-start items-center pt-[9rem] pb-[5rem] universalPadding"
     >
       <h1
-        className="text-[7rem] font-bold text-gray-300"
+        className="text-[4rem] md:text-[5.5rem] lg:text-[7rem] font-bold text-gray-300"
         > projects
       </h1>
 
