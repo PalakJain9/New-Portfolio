@@ -1,6 +1,12 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
+import { Jost } from 'next/font/google'
 import Head from 'next/head'
+
+const jost = Jost({ 
+  subsets: ['latin'],
+  variable: '--font-jost',
+ })
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -12,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
   return (
-    <div className="min-h-screen min-w-screen overflow-x-hidden flex flex-col">
+    <div className={`min-h-screen min-w-screen overflow-x-hidden flex flex-col ${jost.variable} font-sans`}>
       <Head>
         <title>Palak Jain</title>
         <meta name="description" content="Palak Jain" />
@@ -20,7 +26,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <meta property="og:title" content="Palak Jain" />
         <meta property="og:description" content="Palak Jain" />
         {/* <meta property="og:image" content="/logo.svg" /> */}
-        <meta property="og:url" content="https://recruitify.vercel.app/" />
+        <meta property="og:url" content="https://heypalakjain.vercel.app/" />
         <meta property="og:type" content="website" />
       </Head>
 

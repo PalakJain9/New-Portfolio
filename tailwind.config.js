@@ -67,10 +67,24 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        "twinkleSmall": {
+          '0%': {
+            opacity: '0.7',
+            transform: 'rotate(0deg)translateY(300px) rotate(0deg)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'rotate(360deg) translateY(300px) rotate(360deg)',
+          }
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "twinkleSmall": "twinkleSmall 60s linear infinite",
+      },
+      fontFamily: {
+        sans: ['var(--font-jost)'],
       },
     },
   },
