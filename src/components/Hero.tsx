@@ -6,7 +6,7 @@ function StarSky () {
   const starBig = "absolute w-[0.15rem] h-[0.15rem] rounded-[0.15rem] bg-gray-300 animate-twinkleSmall"
 
   return (
-    <div className="relative flex grow w-full h-full z-30">
+    <div className="relative w-full h-full z-30 flex grow overflow-hidden">
       <p 
         className={starSmall}
         style={{
@@ -157,7 +157,7 @@ function StarSky () {
 
 export default function Hero () {
   return (
-    <div className='relative z-30 w-full h-[100vh] bg-darkBlue flex grow glow flex-col justify-center items-start overflow-hidden'>
+    <div className='relative z-30 w-full h-[100vh] bg-darkBlue flex grow glow flex-col justify-center items-start'>
 
       <StarSky />
 
@@ -165,7 +165,7 @@ export default function Hero () {
 
       <Navbar />
       <div
-        className="w-full md:w-10/12 lg:w-8/12 px-[1.5rem] md:px-[2rem] lg:px-[5rem] flex flex-col gap-12 justify-start items-start"
+        className="w-full md:w-10/12 lg:w-8/12 universalPadding flex flex-col gap-12 justify-start items-start"
       >
         <h1
           className='text-4xl md:text-6xl xl:text-7xl'
@@ -179,7 +179,7 @@ export default function Hero () {
         <p
           className="text-xl lg:text-2xl text-gray-400"
         >
-          Hey, I am Palak, a full stack developer and a proud henna artist. Using my development experience to build amazing products for amazing people like you. I help companies make user friendly and scalable software.
+          Hey, I am Palak, a full stack developer and a proud henna artist. Using my development experience to build amazing products for the worldwide web. I help companies make user friendly and scalable software.
         </p>
       </div>
     </div>
