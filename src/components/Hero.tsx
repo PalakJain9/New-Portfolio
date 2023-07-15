@@ -179,7 +179,7 @@ export default function Hero () {
         <p
           className="text-xl lg:text-2xl text-gray-400"
         >
-          Hey, I am Palak, a full stack developer and a proud henna artist. Using my development experience to build amazing products for the worldwide web. I help companies make user friendly and scalable software.
+          Hey, I am Palak, a full stack developer and a henna artist, based in India. Using my development experience to build amazing products for the worldwide web. I help companies make user friendly and scalable software.
         </p>
       </div>
     </div>

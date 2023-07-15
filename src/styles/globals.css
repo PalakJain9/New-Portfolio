@@ -9,3 +9,9 @@
 .universalPadding {
   @apply px-[1.5rem] md:px-[2rem] lg:px-[5rem]
 }
+
+.stickyNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

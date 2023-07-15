@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function Contact () {
   return (
     <div
+      id="contact"
       className="bg-darkBlue glow flex flex-col gap-5 justify-start items-start universalPadding pt-[2rem] pb-[4rem] text-gray-100"
     >
       <h1
