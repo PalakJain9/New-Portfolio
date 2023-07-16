@@ -7,6 +7,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+let accordianTextStyle = "flex flex-col justify-center items-start text-base md:text-lg gap-2"
+
 function Recruitify () {
   return (
     <div
@@ -57,24 +59,48 @@ function Recruitify () {
     </div>
 
       <Accordion type="single" collapsible className="w-full text-base">
+
         <AccordionItem value="item-1">
-          <AccordionTrigger>What was the problem?</AccordionTrigger>
+          <AccordionTrigger>
+            What was the problem?
+          </AccordionTrigger>
           <AccordionContent>
-            <p>hello</p>
+            <div className={accordianTextStyle}>
+              <p>Millions of students with their numerous dreams, sit for placements every year. Every company has its own unique way to recruit students. And universities never share any information regarding placements, or the recruitment procedure. With almost no information and extreme confusion, it becomes difficult for students to focus and perform well.</p>
+              <p>Online resources do help, but only to a certain extent. Procedure at IITs would differ from the one at tier-3 engineering colleges. You need a platform with all verified information about placements at your college to be able to perform well and accomplish your dreams.</p>
+            </div>
           </AccordionContent>
         </AccordionItem>
+
         <AccordionItem value="item-2">
           <AccordionTrigger>How Recruitify solves the problem?</AccordionTrigger>
           <AccordionContent>
-            Yes. It comes with default styles that matches the other
-            components&apos; aesthetic.
+            <div className={accordianTextStyle}>
+              <p>
+                The biggest concern was that colleges don&apos;t have any placement portal, or don&apos;t share information about placements. Recruitify fixes that!
+              </p>
+              <p>
+                Now colleges can setup their own platform in seconds. Students can access all information regarding placements and internships, including the job description, eligibility criteria, CTC, and locations offered.</p>
+              <p>
+                Students can share and read experiences to learn about the recruitment procedure, interview process, and resources for preparation. So no need to hop on Medium or any other writing platform to read experiences. You can save any information to your favorites, so you can refer to it anytime and anywhere.
+              </p>
+            </div>
           </AccordionContent>
         </AccordionItem>
+
         <AccordionItem value="item-3">
           <AccordionTrigger>How I built it?</AccordionTrigger>
           <AccordionContent>
-            Yes. It&apos;s animated by default, but you can disable it if you
-            prefer.
+            <div className={accordianTextStyle}>
+              <p className="italic font-medium">Tech Stack: Next.js, React, TypeScript, Tailwind CSS, NextAuth, MongoDB, Prisma</p>
+              <p>
+              &#8594; Reduced setup time of placement portals by 100% by designing and developing Recruitify, a user friendly web application to enable colleges to setup their placement portals in no time. <br />
+              &#8594; Implemented CRUD (Create, Read, Update, Delete) operations using Next.js API routes and Prisma. <br />
+              &#8594; Implemented secure user authentication and login functionality using NextAuth ensuring that only authorized individuals have access to the placement portal. <br />
+              &#8594; Optimized performance using Next.js server-side rendering to provide lightning-fast page load times and improve overall user experience. <br />
+              &#8594; Increased search relevance by up to 15% by designing a tag-based filtering UI using React.
+              </p>
+            </div>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
@@ -123,24 +149,54 @@ function Tymely () {
     </div>
 
       <Accordion type="single" collapsible className="w-full">
+        
         <AccordionItem value="item-1">
-          <AccordionTrigger>What was the problem?</AccordionTrigger>
+          <AccordionTrigger>
+            What was the problem?
+          </AccordionTrigger>
           <AccordionContent>
-            <p>hello</p>
+            <div className={accordianTextStyle}>
+              <p>
+                Studies show that 41% of employers have fired an employee for missing a deadline. And 58% of workers see deadlines as a major source of work-related stress. Yes. With so much going on, your todo list fails to track deadlines for the coming days.
+              </p>
+              <p>
+                Okay, so you remember your deadline but don&apos;t know how to do the task? That&apos;s a major reason why we procrastinate, and eventually accomplishing the deadline becomes difficult.</p>
+            </div>
           </AccordionContent>
         </AccordionItem>
+
         <AccordionItem value="item-2">
-          <AccordionTrigger>How Tymely solves the problem?</AccordionTrigger>
+          <AccordionTrigger>
+            How Tymely solves the problem?
+            </AccordionTrigger>
           <AccordionContent>
-            Yes. It comes with default styles that matches the other
-            components&apos; aesthetic.
+            <div className={accordianTextStyle}>
+              <p>
+                Tymely keeps track of your deadlines, gives you reminders so that you don&apos;t miss your deadlines. Indeed, all complex tasks can be done easily when broken down into smaller subtasks. Tymely does exactly that. It shares with you a step-by-step roadmap that you can follow to achieve your deadline on time.
+              </p>
+              <p>
+                Not just that, Tymely started with the vision of reducing work-related stress. With Tymely, you can focus on your work with the fully-customizable Pomodoro timer, app-blocking, and focus sounds.
+              </p>
+            </div>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger>How I built it?</AccordionTrigger>
+          <AccordionTrigger>
+            How I built it?
+            </AccordionTrigger>
           <AccordionContent>
-            Yes. It&apos;s animated by default, but you can disable it if you
-            prefer.
+            <div className={accordianTextStyle}>
+              <p className="italic font-medium">
+              Tech Stack: Next.js, React, TypeScript, Tailwind CSS, Figma, Golang, MySQL
+              </p>
+              <p>
+                &#8594; Designed and developed Tymely, a time management web app which is powered by AI and backed by science.<br />
+                &#8594; Enhanced user engagement by 31% by building a dynamic priority task list, allowing users to enter, reorder, and delete tasks. <br /> 
+                &#8594; Utilized React DND kit for implementing the drag and drop functionality. <br />
+                &#8594; Onboarded 280 users within 21 days of deployment by utilizing Next.js 13 server-side rendering (SSR) techniques for better performance.
+              </p>
+              
+            </div>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
