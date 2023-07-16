@@ -29,10 +29,6 @@ export default function Navbar () {
     }
   },[])
 
-  function sendToSkills () {
-    router.push("#skills")
-  }
-
   return (
     <div
       className={`z-30 fixed top-0 flex flex-row justify-between items-center w-full py-[2rem] universalPadding border-b-[0.05rem] border-gray-700 text-white
@@ -58,17 +54,17 @@ export default function Navbar () {
             className={`z-30 absolute top-100 right-0 bg-darkBlue text-white ${jost.variable} font-sans border-gray-800`}
           >
             <DropdownMenuItem 
-              onClick={ sendToSkills }
+              onClick={ () => router.push('#skills') }
               > Skills
             </DropdownMenuItem>
 
             <DropdownMenuItem
-              onClick={ sendToSkills }
+              onClick={ () => router.push('#blogs') }
               > Blogs
             </DropdownMenuItem>
 
             <DropdownMenuItem
-              onClick={ sendToSkills }
+              onClick={ () => router.push('#community') }
               > Community
             </DropdownMenuItem>
 

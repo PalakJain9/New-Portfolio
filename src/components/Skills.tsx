@@ -8,12 +8,12 @@ export default function Skills() {
 
   return (
     <div
-      id="skills"
       className="pt-[3.5rem] md:pt-[5rem] pb-[7rem] flex flex-col gap-4 justify-center items-center w-full h-full bg-white universalPadding"
     >
       <div className={parentContainerStyle}>
         
         <div
+          id="skills"
           className={`${containerStyle} md:w-7/12`}
         >
           <p
@@ -40,6 +40,7 @@ export default function Skills() {
       <div className={parentContainerStyle}>
         
         <div
+          id="blogs"
           className={`${containerStyle} md:w-5/12`}
         >
           <p
@@ -73,6 +74,7 @@ export default function Skills() {
       <div className={parentContainerStyle}>
         
         <div
+          id="community"
           className={`${containerStyle} md:w-7/12`}
         >
           <p

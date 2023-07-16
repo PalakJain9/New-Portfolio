@@ -152,7 +152,7 @@ function Tymely () {
 export default function Projects () {
   return (
     <div
-      className="flex flex-col gap-[5rem] justify-start items-center pt-[9rem] pb-[5rem] universalPadding"
+      className="flex flex-col gap-[5rem] justify-start items-center pt-[5rem] pb-[5rem] universalPadding"
     >
       <h1
         className="text-[4rem] md:text-[5.5rem] lg:text-[7rem] font-bold text-gray-300"
