@@ -54,7 +54,7 @@ export default function Skills() {
 
             <Link href="https://palakjain.hashnode.dev/4-linkedin-hacks-you-cant-miss-at-all" target="_blank" rel="noopener noreferrer">
               <p className="underline hover:text-blue">
-                4 LinkedIn Hacks You Can't Miss At All.
+                {`4 LinkedIn Hacks You Can't Miss At All.`}
               </p>
             </Link>
             <p>and more</p>
@@ -65,7 +65,7 @@ export default function Skills() {
             improved growth of a startup by reporting bugs
           </p>
 
-          <p>contributed significantly to a startup's growth by improving the overall experience of 10,000+ users by reporting 2 bugs and providing 7+ feedback.</p>
+          <p>{`contributed significantly to a startup's growth by improving the overall experience of 10,000+ users by reporting 2 bugs and providing 7+ feedback.`}</p>
         </div>
       </div>
 
