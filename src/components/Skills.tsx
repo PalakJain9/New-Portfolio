@@ -10,7 +10,7 @@ export default function Skills() {
 
   return (
     <div
-      className="pt-[2.5rem] md:pt-[4rem] pb-[4.5rem] flex flex-col gap-4 justify-center items-center w-full h-full bg-white universalPadding"
+      className="pt-[2.5rem] md:pt-[4rem] pb-[4.5rem] flex flex-col gap-4 justify-center items-center w-full h-full bg-white universalPadding polkaDot"
     >
       <p
         className="text-[4rem] md:text-[5.5rem] lg:text-[7rem] font-bold text-gray-300"

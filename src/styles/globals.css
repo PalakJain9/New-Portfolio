@@ -9,3 +9,11 @@
 .universalPadding {
   @apply px-[1.5rem] md:px-[2rem] lg:px-[5rem]
 }
+
+.polkaDot {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image:  radial-gradient(#d4d4d4 2px, transparent 2px), radial-gradient(#d4d4d4 2px, #ffffff 2px);
+  background-size: 80px 80px;
+  background-position: 0 0,40px 40px;
+}
