@@ -6,6 +6,7 @@ export default function Skills() {
   let parentContainerStyle = "w-full lg:w-11/12 flex flex-col md:flex-row gap-4 justify-center items-center";
   let containerStyle = "w-full flex flex-col justify-center items-start md:h-[25rem] gap-5 text-base md:text-lg bg-white border border-gray-200 p-[1rem]";
   let headingStyle = "text-xl md:text-2xl lg:text-4xl font-bold text-blue";
+  let textStyle="text-lg lg:text-xl";
   let iconStyle = "inline-block pl-[0.5rem] text-base md:text-xl lg:text-2xl font-bold text-orange";
 
   return (
@@ -33,6 +34,7 @@ export default function Skills() {
               </span> 
           </p>
           <p
+            className={textStyle}
           >
             <span className="font-medium">Languages</span>: TypeScript, JavaScript, Java, C <br />
             <span className="font-medium">Client-side</span>: Next.js, React, HTML, CSS, Tailwind CSS <br />
@@ -51,7 +53,11 @@ export default function Skills() {
             </span>
           </p>
 
-          <p>developed a detailed report on climatic change which got recognised among the top 250 projects selected from my state for a national level science competition.</p>
+          <p
+            className={textStyle}
+          >
+            developed a detailed report on climatic change which got recognised among the top 250 projects selected from my state for a national level science competition.
+          </p>
         </div>
       </div>
 
@@ -71,14 +77,17 @@ export default function Skills() {
           </p>
 
           <Link href="https://palakjain.hashnode.dev/nextjs-13-routing-a-complete-guide-to-mastering-dynamic-and-nested-routes" target="_blank" rel="noopener noreferrer">
-              <p className="underline hover:text-blue">
-                Next.js 13 Routing: A Complete Guide to Mastering Dynamic and Nested Routes
-              </p></Link>
+            <p className={`underline hover:text-blue ${textStyle}`}
+            >
+              Next.js 13 Routing: A Complete Guide to Mastering Dynamic and Nested Routes
+            </p>
+          </Link>
 
-            <Link href="https://palakjain.hashnode.dev/4-linkedin-hacks-you-cant-miss-at-all" target="_blank" rel="noopener noreferrer">
-              <p className="underline hover:text-blue">
-                {`4 LinkedIn Hacks You Can't Miss At All.`}
-              </p>
+          <Link href="https://palakjain.hashnode.dev/4-linkedin-hacks-you-cant-miss-at-all" target="_blank" rel="noopener noreferrer">
+            <p className={`underline hover:text-blue ${textStyle}`}
+            >
+              {`4 LinkedIn Hacks You Can't Miss At All.`}
+            </p>
             </Link>
             <p>and more</p>
         </div>
@@ -91,7 +100,11 @@ export default function Skills() {
             </span> 
           </p>
 
-          <p>{`contributed significantly to a startup's growth by improving the overall experience of 10,000+ users by reporting 2 bugs and providing 7+ feedback.`}</p>
+          <p
+            className={textStyle}
+          >
+            {`contributed significantly to a startup's growth by improving the overall experience of 10,000+ users by reporting 2 bugs and providing 7+ feedback.`}
+          </p>
         </div>
       </div>
 
@@ -110,7 +123,9 @@ export default function Skills() {
             </span> 
           </p>
 
-          <p>
+          <p
+            className={textStyle}
+          >
           strengthened the technical community by 31% by leading a team of 14 women and encouraged 2000+ women to learn new technologies by successfully organizing 6+ mega events. <br /> <br />
           
           Google Developer Student Clubs are university based community groups for students interested in Google developer technologies.
@@ -125,7 +140,9 @@ export default function Skills() {
             </span> 
           </p>
 
-          <p>initiated the very first friends of figma chapter in Punjab. stay tuned for more updates.</p>
+          <p
+            className={textStyle}
+          >initiated the very first friends of figma chapter in Punjab. stay tuned for more updates.</p>
         </div>
       </div>
 

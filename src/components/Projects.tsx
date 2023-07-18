@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-let accordianTextStyle = "flex flex-col justify-center items-start text-base md:text-lg gap-2"
+let accordianTextStyle = "flex flex-col justify-center items-start text-lg md:text-xl gap-2"
 
 function Recruitify () {
   return (
@@ -60,7 +60,7 @@ function Recruitify () {
 
     </div>
 
-      <Accordion type="single" collapsible className="w-full text-base">
+      <Accordion type="single" collapsible className="w-full text-base lg:text-lg">
 
         <AccordionItem value="item-1">
           <AccordionTrigger>
@@ -68,8 +68,12 @@ function Recruitify () {
           </AccordionTrigger>
           <AccordionContent>
             <div className={accordianTextStyle}>
-              <p>Millions of students with their numerous dreams, sit for placements every year. Every company has its own unique way to recruit students. And universities never share any information regarding placements, or the recruitment procedure. With almost no information and extreme confusion, it becomes difficult for students to focus and perform well.</p>
-              <p>Online resources do help, but only to a certain extent. Procedure at IITs would differ from the one at tier-3 engineering colleges. You need a platform with all verified information about placements at your college to be able to perform well and accomplish your dreams.</p>
+              <p>
+                Millions of students with their numerous dreams, sit for placements every year. Every company has its own unique way to recruit students. And universities never share any information regarding placements, or the recruitment procedure. With almost no information and extreme confusion, it becomes difficult for students to focus and perform well.
+              </p>
+              <p>
+                Online resources do help, but only to a certain extent. Procedure at IITs would differ from the one at tier-3 engineering colleges. You need a platform with all verified information about placements at your college to be able to perform well and accomplish your dreams.
+              </p>
             </div>
           </AccordionContent>
         </AccordionItem>
@@ -152,7 +156,7 @@ function Tymely () {
 
     </div>
 
-      <Accordion type="single" collapsible className="w-full">
+      <Accordion type="single" collapsible className="w-full text-base lg:text-lg">
         
         <AccordionItem value="item-1">
           <AccordionTrigger>
