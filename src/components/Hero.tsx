@@ -18,6 +18,60 @@ function StarSky () {
       <p 
         className={starSmall}
         style={{
+          top: '24%',
+          left: '19%'
+
+        }}
+      ></p>
+      <p 
+        className={starSmall}
+        style={{
+          top: '7%',
+          right: '19%'
+
+        }}
+      ></p>
+      <p 
+        className={starSmall}
+        style={{
+          top: '27%',
+          right: '19%'
+
+        }}
+      ></p>
+      <p 
+        className={starSmall}
+        style={{
+          top: '47%',
+          left: '29%'
+
+        }}
+      ></p>
+      <p 
+        className={starSmall}
+        style={{
+          top: '43%',
+          right: '9%'
+
+        }}
+      ></p>
+      <p 
+        className={starSmall}
+        style={{
+          top: '87%',
+          left: '19%'
+        }}
+      ></p>
+      <p 
+        className={starSmall}
+        style={{
+          top: '70%',
+          left: '49%'
+        }}
+      ></p>
+      <p 
+        className={starSmall}
+        style={{
           top: '13%',
           left: '10%'
 

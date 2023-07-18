@@ -49,7 +49,7 @@ export default function Navbar () {
           > &#9776;
           </DropdownMenuTrigger>
           <DropdownMenuContent
-            className={`z-30 absolute top-100 right-0 bg-darkBlue text-white ${jost.variable} font-sans border-gray-800`}
+            className={`z-30 absolute top-100 right-0 bg-darkBlue text-white ${jost.variable} font-sans border-gray-800 text-xl font-normal`}
           >
             <Link href='#skills'>
               <DropdownMenuItem 
