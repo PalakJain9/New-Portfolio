@@ -12,6 +12,7 @@ let accordianTextStyle = "flex flex-col justify-center items-start text-base md:
 function Recruitify () {
   return (
     <div
+      data-aos="fade-up"
       className="w-full flex gap-5 flex-col justify-start items-start"
     >
 
@@ -49,6 +50,7 @@ function Recruitify () {
       </div>
 
       <Image
+        data-aos="zoom-in"
         alt="recruitify preview"
         src="/recruitify.PNG"
         width={1440}
@@ -112,6 +114,7 @@ function Recruitify () {
 function Tymely () {
   return (
     <div
+      data-aos="fade-up"
       className="w-full flex gap-5 flex-col justify-start items-start"
     >
 
@@ -139,6 +142,7 @@ function Tymely () {
       </div>
 
       <Image
+        data-aos="zoom-in"
         alt="tymely preview"
         src="/tymely.PNG"
         width={1440}
@@ -160,7 +164,7 @@ function Tymely () {
                 Studies show that 41% of employers have fired an employee for missing a deadline. And 58% of workers see deadlines as a major source of work-related stress. Yes. With so much going on, your todo list fails to track deadlines for the coming days.
               </p>
               <p>
-                Okay, so you remember your deadline but don&apos;t know how to do the task? That&apos;s a major reason why we procrastinate, and eventually accomplishing the deadline becomes difficult.</p>
+                Or what if you remember your deadline but don&apos;t know how to do the task? That&apos;s a major reason why we procrastinate, and eventually accomplishing the deadline becomes difficult. Do we have a solution?</p>
             </div>
           </AccordionContent>
         </AccordionItem>
@@ -175,7 +179,7 @@ function Tymely () {
                 Tymely keeps track of your deadlines, gives you reminders so that you don&apos;t miss your deadlines. Indeed, all complex tasks can be done easily when broken down into smaller subtasks. Tymely does exactly that. It shares with you a step-by-step roadmap that you can follow to achieve your deadline on time.
               </p>
               <p>
-                Not just that, Tymely started with the vision of reducing work-related stress. With Tymely, you can focus on your work with the fully-customizable Pomodoro timer, app-blocking, and focus sounds.
+                Not just that, Tymely started with the vision of reducing work-related stress. So you can focus on your work with the fully-customizable Pomodoro timer, app-blocking, and focus sounds. Let&apos;s do it!
               </p>
             </div>
           </AccordionContent>
@@ -208,10 +212,11 @@ function Tymely () {
 export default function Projects () {
   return (
     <div
-      className="flex flex-col gap-[5rem] justify-start items-center pt-[5rem] pb-[5rem] universalPadding"
+      className="flex flex-col gap-[5rem] justify-start items-center pt-[5rem] pb-[2.5rem] universalPadding"
     >
       <h1
         className="text-[4rem] md:text-[5.5rem] lg:text-[7rem] font-bold text-gray-300"
+        data-aos="fade-up"
         > projects
       </h1>
 

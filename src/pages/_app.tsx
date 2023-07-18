@@ -2,6 +2,9 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { Jost } from 'next/font/google'
 import Head from 'next/head'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import React from 'react';
 
 const jost = Jost({ 
   subsets: ['latin'],
@@ -16,9 +19,16 @@ export default function App({ Component, pageProps }: AppProps) {
 )}
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  
+  React.useEffect(() => {
+    Aos.init({
+      delay: 30,
+      duration: 1200,
+    });
+  },[])
 
   return (
-    <div className={`min-h-screen min-w-screen overflow-x-hidden flex flex-col ${jost.variable} font-sans`}>
+    <div className={`flex flex-col ${jost.variable} font-sans`}>
       <Head>
         <title>Palak Jain</title>
         <meta name="description" content="Palak Jain" />
@@ -30,7 +40,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <meta property="og:type" content="website" />
       </Head>
 
-      { children } 
+      { children }
     </div>
   )
 }

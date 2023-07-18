@@ -6,7 +6,6 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Jost } from "next/font/google"
 import Link from "next/link";
-import { useRouter } from "next/router";
 import React from "react"
 
 const jost = Jost({ 
@@ -16,8 +15,7 @@ const jost = Jost({
 
 export default function Navbar () {
   const [isScreenScrolled, setIsScreenScrolled] = React.useState(false);
-  const router = useRouter();
-
+  
   function addColorToNav () {
     window.scrollY >=100 ? setIsScreenScrolled(true) : setIsScreenScrolled(false)
   }
@@ -31,7 +29,7 @@ export default function Navbar () {
 
   return (
     <div
-      className={`z-30 fixed top-0 flex flex-row justify-between items-center w-full py-[2rem] universalPadding border-b-[0.05rem] border-gray-700 text-white
+      className={`z-30 fixed top-0 flex flex-row justify-between items-center w-full py-[2rem] universalPadding border-b-[0.05rem] border-gray-700 text-white overflow-hidden
       ${isScreenScrolled ? "bg-darkBlue glow" : "bg-transparent"}
     `}
     >
@@ -53,20 +51,23 @@ export default function Navbar () {
           <DropdownMenuContent
             className={`z-30 absolute top-100 right-0 bg-darkBlue text-white ${jost.variable} font-sans border-gray-800`}
           >
-            <DropdownMenuItem 
-              onClick={ () => router.push('#skills') }
+            <Link href='#skills'>
+              <DropdownMenuItem 
               > Skills
             </DropdownMenuItem>
+            </Link>
 
+            <Link href='#blogs'>
             <DropdownMenuItem
-              onClick={ () => router.push('#blogs') }
               > Blogs
             </DropdownMenuItem>
+            </Link>
 
+            <Link href='#community'>
             <DropdownMenuItem
-              onClick={ () => router.push('#community') }
               > Community
             </DropdownMenuItem>
+            </Link>
 
           </DropdownMenuContent>
         </DropdownMenu>

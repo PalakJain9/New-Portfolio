@@ -167,17 +167,24 @@ export default function Hero () {
       <div
         className="w-full md:w-10/12 lg:w-8/12 universalPadding flex flex-col gap-12 justify-start items-start"
       >
-        <h1
-          className='text-4xl md:text-6xl xl:text-7xl'
+        <div className="text-4xl md:text-6xl xl:text-7xl flex flex-col gap-2 justify-start items-start"> 
+          <p
+            data-aos="fade-right"
           > Building products that
-            <br />
-            <span className="underline decoration-orange underline-offset-4 font-medium">
-              people love
-            </span>.
-        </h1>
+          </p>
+          <p 
+            data-aos="fade-right"
+            data-aos-delay="550"
+            className="underline decoration-orange underline-offset-4 font-medium"
+            > people love
+          </p>
+        </div>
 
         <p
           className="text-xl lg:text-2xl text-blue"
+          data-aos="fade-up"
+          data-aos-delay="700"
+          data-aos-anchor=".other-element"
         >
           Hey, I am Palak, a full stack developer and a henna artist, based in India. Using my development experience to build amazing products for the worldwide web. I help companies make user friendly and scalable software.
         </p>

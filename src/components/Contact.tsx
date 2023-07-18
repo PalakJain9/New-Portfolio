@@ -9,8 +9,10 @@ export default function Contact () {
     >
       <h1
         className="text-[3rem] md:text-[5rem] lg:text-[6rem] font-semibold text-gray-500"
+        data-aos="fade-right"
         > contact
       </h1>
+      
       <p
         className="text-base md:text-xl"
       > Connect with me if you want to create something extraordinary.⚡
