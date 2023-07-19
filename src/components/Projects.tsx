@@ -135,7 +135,7 @@ function Tymely () {
 
         <p
           className="text-darkblue text-xl md:text-2xl font-medium"
-          > a time-management app to help you manage your deadlines and have less work stress
+          > a time-management app to help you manage your deadlines and reduce work stress
         </p>
 
         <Link 

@@ -9,7 +9,6 @@ export default function Contact () {
     >
       <h1
         className="text-[3rem] md:text-[5rem] lg:text-[6rem] font-semibold text-gray-500"
-        data-aos="fade-right"
         > contact
       </h1>
       
