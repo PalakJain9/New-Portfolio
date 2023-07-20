@@ -32,10 +32,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       <Head>
         <title>Palak Jain</title>
         <meta name="description" content="Palak Jain" />
-        {/* <link rel="icon" href="/logo.svg" type="image/svg+xml" /> */}
+        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
         <meta property="og:title" content="Palak Jain" />
         <meta property="og:description" content="Palak Jain" />
-        {/* <meta property="og:image" content="/logo.svg" /> */}
+        <meta property="og:image" content="/logo.svg" />
         <meta property="og:url" content="https://heypalakjain.vercel.app/" />
         <meta property="og:type" content="website" />
       </Head>
