@@ -195,7 +195,7 @@ function Tymely () {
           <AccordionContent>
             <div className={accordianTextStyle}>
               <p className="italic font-medium">
-              Tech Stack: Next.js, React, TypeScript, Tailwind CSS, Figma, Golang, MySQL
+              Tech Stack: Open AI, Next.js, React, TypeScript, Tailwind CSS, Figma, Golang, MySQL
               </p>
               <p>
                 &#8594; Designed and developed Tymely, a time management web app which is powered by AI and backed by science.<br />

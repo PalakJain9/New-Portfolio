@@ -15,6 +15,7 @@ const jost = Jost({
 
 export default function Navbar () {
   const [isScreenScrolled, setIsScreenScrolled] = React.useState(false);
+  let dropdownTextStyke = "text-lg font-normal cursor-pointer hover:underline decoration-gray-100";
   
   function addColorToNav () {
     window.scrollY >=100 ? setIsScreenScrolled(true) : setIsScreenScrolled(false)
@@ -33,13 +34,17 @@ export default function Navbar () {
       ${isScreenScrolled ? "bg-darkBlue glow" : "bg-transparent"}
     `}
     >
-      <p>Palak Jain</p>
+      <Link
+          href="/"
+          > <p>Palak Jain</p>
+        </Link>
 
       <div
         className="z-30 flex flex-row gap-4 justify-end items-center"
       >
         <Link
           href="#contact"
+          className="hover:underline underline-offset-4"
           > <p>contact</p>
         </Link>
 
@@ -49,22 +54,25 @@ export default function Navbar () {
           > &#9776;
           </DropdownMenuTrigger>
           <DropdownMenuContent
-            className={`z-30 absolute top-100 right-0 bg-darkBlue text-white ${jost.variable} font-sans border-gray-800 text-xl font-normal`}
+            className={`z-30 absolute top-100 right-0 bg-darkBlue text-white ${jost.variable} font-sans border-gray-800`}
           >
             <Link href='#skills'>
               <DropdownMenuItem 
+                className={dropdownTextStyke}
               > Skills
             </DropdownMenuItem>
             </Link>
 
             <Link href='#blogs'>
             <DropdownMenuItem
+              className={dropdownTextStyke}
               > Blogs
             </DropdownMenuItem>
             </Link>
 
             <Link href='#community'>
             <DropdownMenuItem
+               className={dropdownTextStyke}
               > Community
             </DropdownMenuItem>
             </Link>
