@@ -1,5 +1,7 @@
 <h1 align="center">An eye-catching portfolio</h1>
-built with ❤ by [Palak Jain](https://github.com/PalakJain9)
+<p align="center">
+built with <span style="color: #8b0000;">&hearts;</span> by <a href="https://heypalakjain.vercel.app/">Palak Jain</a>.
+</p>
 
 ## Built With
 Developed with ❤ on NextJS and Tailwind CSS, statically typed in TypeScript and deployed on Vercel, following the best practices.
