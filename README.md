@@ -1,5 +1,5 @@
 <h1 align="center">An eye-catching portfolio</h1>
-<h1 align="center">built with ❤ by [Palak Jain](https://github.com/PalakJain9)</h1>
+built with ❤ by [Palak Jain](https://github.com/PalakJain9)
 
 ## Built With
 Developed with ❤ on NextJS and Tailwind CSS, statically typed in TypeScript and deployed on Vercel, following the best practices.
